@@ -61,6 +61,7 @@ button{
   height:40px;
   border-radius:40px;
   background:#FFC0CB;
+  color: black;
   border:none;
   outline:none;
   cursor:pointer;
