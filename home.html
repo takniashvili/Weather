@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+        <div class="form">
+          <h1>Weather</h1>
+          <div class="inputbox">
+            <input type="text" id="input" placeholder="Type Country or City here">
+            <div class="buttonbox">
+              <button id="button">Get Weather</button>
+            </div>
+          </div>
+          <div id="infobox">
+            <div id="info"></div>
+          </div>
+          <div id="audiobox">
+            <audio id="audio" autoplay>
+              <source src="./RiveR - Solo.mp3" type="audio/mpeg">
+            </audio>
+            <button id="playPauseBTN" onclick="playPause()">Stop | |</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./home.js"></script>
+</body>
+
+</html>
